@@ -1,0 +1,12 @@
+include: package:very_good_analysis/analysis_options.5.1.0.yaml
+
+#Very Good Analysis overrides the linter
+analyzer:
+  exclude:
+    - lib/l10n/arb/*
+    - lib/**/*.g.dart
+    - packages/**/*.gen.dart
+    - packages/**/*.g.dart
+linter:
+  rules:
+    public_member_api_docs: false
