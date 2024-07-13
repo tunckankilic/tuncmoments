@@ -1,6 +1,6 @@
-import 'package:tuncmoments/app/app.dart';
-import 'package:tuncmoments/bootstrap.dart';
+// import 'package:tuncmoments/app/app.dart';
+// import 'package:tuncmoments/bootstrap.dart';
 
-void main() {
-  bootstrap(() => const App());
-}
+// void main() {
+//   bootstrap(() => const App());
+// }

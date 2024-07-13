@@ -1,11 +1,14 @@
 // ignore_for_file: prefer_const_constructors
+
+import 'package:flutter_test/flutter_test.dart';
 import 'package:shared/shared.dart';
-import 'package:test/test.dart';
 
 void main() {
-  // group('Shared', () {
-  //   test('can be instantiated', () {
-  //     expect(Shared(), isNotNull);
-  //   });
-  // });
+  group('Shared', () {
+    group('Models', () {
+      test('schema not null', () {
+        expect(schema, isNotNull);
+      });
+    });
+  });
 }

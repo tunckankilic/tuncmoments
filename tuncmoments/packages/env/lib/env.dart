@@ -1,5 +1,5 @@
-/// A repository that manages enviromental data
-library;
+/// A package that manages application secrets.
+library env;
 
 export 'src/env.dart';
 export 'src/env.dev.dart';

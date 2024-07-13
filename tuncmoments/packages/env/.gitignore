@@ -30,10 +30,6 @@ migrate_working_dir/
 .pub/
 /build/
 pubspec.lock
-.env.prod
-.env.dev
-lib/src/env.dev.g.dart
-lib/src/env.prod.g.dart
 
 # Web related
 lib/generated_plugin_registrant.dart
@@ -46,3 +42,11 @@ app.*.map.json
 
 # Test related
 coverage
+
+# Env relate
+.env.dev
+.env.prod
+
+# Generated env
+lib/src/env.dev.g.dart
+lib/src/env.prod.g.dart

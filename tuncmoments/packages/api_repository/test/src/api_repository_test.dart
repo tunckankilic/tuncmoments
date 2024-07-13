@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
-import 'package:api_repository/api_repository.dart';
+
 import 'package:test/test.dart';
+import '../../lib/src/api_repository.dart';
 
 void main() {
   group('ApiRepository', () {

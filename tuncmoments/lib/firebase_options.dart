@@ -28,10 +28,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -51,7 +48,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyAYhpqnbJE9uDK7ZZftU8oze1f1zyM7cRE',
-    appId: '1:638311798523:android:81b85cdfec365df93a825e',
+    appId: '1:638311798523:android:852f20f1c3c3ea483a825e',
     messagingSenderId: '638311798523',
     projectId: 'tuncmoments-c89ad',
     storageBucket: 'tuncmoments-c89ad.appspot.com',
@@ -59,10 +56,23 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBPmU36Nz43ciHXWy3mRdsGcD-jzhNUA60',
-    appId: '1:638311798523:ios:c8a8914ec511e8a03a825e',
+    appId: '1:638311798523:ios:3629d7637e3e51da3a825e',
     messagingSenderId: '638311798523',
     projectId: 'tuncmoments-c89ad',
     storageBucket: 'tuncmoments-c89ad.appspot.com',
+    androidClientId: '638311798523-clghbhktgec13j8rf9jdhmiipr3s0f25.apps.googleusercontent.com',
+    iosClientId: '638311798523-4s5lgvj1ktmgq3fsefcnngskj01qt153.apps.googleusercontent.com',
     iosBundleId: 'site.tunckankilic.tuncmoments',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyBPmU36Nz43ciHXWy3mRdsGcD-jzhNUA60',
+    appId: '1:638311798523:ios:a9ac0fc392ad51553a825e',
+    messagingSenderId: '638311798523',
+    projectId: 'tuncmoments-c89ad',
+    storageBucket: 'tuncmoments-c89ad.appspot.com',
+    androidClientId: '638311798523-clghbhktgec13j8rf9jdhmiipr3s0f25.apps.googleusercontent.com',
+    iosClientId: '638311798523-0p9etn5li73doo5869i7kfb1en4i077j.apps.googleusercontent.com',
+    iosBundleId: 'com.example.myApp',
   );
 }

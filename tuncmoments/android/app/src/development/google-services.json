@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "990769159397",
+    "project_id": "tuncmoments-dev",
+    "storage_bucket": "tuncmoments-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990769159397:android:dfdfc05b5be43a1044480c",
+        "android_client_info": {
+          "package_name": "site.tunckankilic.tuncmoments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990769159397-0495mfv7j3tea1dgesmk6ctg74u5i9f4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmjhLJpPMuNpqGqluTQUBP5MyXHV1BnSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990769159397-0495mfv7j3tea1dgesmk6ctg74u5i9f4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
